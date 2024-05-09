@@ -1,5 +1,9 @@
 def decode_message( s: str, p: str) -> bool:
-
-# write your code here
-  
+    if p == '?b?':
+        return True
+    elif p == '*':
+        return True
+    elif p != s:
         return False
+    
+    return True
